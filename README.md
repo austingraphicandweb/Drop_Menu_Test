@@ -4,8 +4,6 @@ By Austin Keener <br>
 ## Table of Contents
 ### 1. Usage <br>
 ### 2. License<br>
-
-link: 
 <hr>
 
 ## Screenshot
