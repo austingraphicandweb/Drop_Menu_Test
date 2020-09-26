@@ -10,7 +10,7 @@ link:
 
 ## Screenshot
 
-![screenshot]()
+![screenshot](/misc/images/screenshot.PNG)
 
 <hr>
 
