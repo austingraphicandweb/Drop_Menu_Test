@@ -30,32 +30,49 @@
             margin-left: 70px;
             float:left;
         }
-        ul {
-            list-style-type: none;
-            margin: 23px 80px 0px 0px;
-            width: 800px;
-            padding-bottom: 25px;
+        .navtop {
+            list-style-type:none;
+            margin-top: 25px;
+            width: 1000px;
             float:right;
         }
+        /* ul {
+            border:1px solid red;
+            list-style-type: none;
+            margin: 23px 80px 0px 0px;
+            width: 900px;
+            padding-bottom: 25px;
+            float:right;
+        } */
         li {
             display: inline;
-            padding-left: 80px;
+            margin-right: 80px;
+            padding:5px 5px 28px 5px;
+        }
+        li:hover {
+            display: inline;
+            margin-right: 80px;
+            border-radius: 10% 10% 0% 0%;
+            padding:10px 10px 29px 10px;
+            background-color:#34cc9b;
+            transition: 1s;
         }
         a {
             text-decoration:none;
             color: black;
         }
         li>a {
-            font-size: 20px;
+            font-size: 15px;
         }
         .ddOne {
             margin-top: 32px;
+            display:none;
         }
         .ddOne>li {
             display: block;
             width: 220px;
             padding:7px;
-            margin-left: 50px;
+            margin-left: 103px;
             background-color:#34cc9b;
         }
         .ddOne>li>a {
@@ -67,9 +84,9 @@
     <header>
         <h1><a href="#">GETUWIRED</a></h1>
         <nav>
-            <ul>
-                <li style="padding-left:0px;"><a href="#">ABOUT</a></li>
-                    <ul class="ddOne">
+            <ul class="navtop">
+                <li class="ddmenu"><a href="#">ABOUT</a></li>
+                    <ul class="ddOne navbottom">
                         <li><a href="#">OUR STORY</a></li>
                         <li><a href="#">OUR COMMITMENT TO YOU</a></li>
                     </ul>  
